@@ -1,0 +1,507 @@
+html,body
+{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*CSS CODE FOR THE FRONT INTRO OF INSIGHT*/
+.back{
+  position: relative;
+  margin: 0px;
+}
+.plays{
+
+  z-index: -1;
+  width: 100%;
+  margin: 0px;
+  height:100%;
+}
+.container{
+  height: 40vmax;
+  width: 100%;
+  background-color:#f4f4f4;
+  position: absolute;
+  margin: 0px;
+}
+body{
+  margin: 0px;
+  background-color: #f4f4f4;
+}
+.imger{
+  position: absolute;
+  left: 1.3%;
+  top: 2.2%;
+  height: auto;
+  width: 15vmax;
+
+}
+
+.startimg{
+
+  height: 90px;
+  margin-top: 20px;
+margin-left: 20px;
+background-color: #f4f4f4;
+position: absolute;
+z-index: 2;
+mix-blend-mode: darken;
+}
+.dropbtn {
+  background-color: Transarent;
+  color: #77d8d8;
+  padding: 6px;
+  border: none;
+  font-size: 2.3vmax;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: 2.1vmax;
+
+}
+
+.dropdown-content a {
+  color:white;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:pink;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #dcd6f7;}
+.link{
+  z-index: 1;
+  display: inline-block;
+  height: 300px;
+  position: absolute;
+  top: 2.7%;
+  right: 2%;
+
+
+
+
+}
+.glance{
+  color: cadetblue;
+  position: absolute;
+  margin: 0 auto 0 auto;
+  font-size: 2.9vmax;
+  top: 60%;
+  left: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+
+
+
+}
+  .imr{
+  z-index: 2;
+  position: absolute;
+  top:80%;
+  left:40%;
+  max-width: 300px;
+  width: 100%;
+  height:auto;
+  mix-blend-mode: color-burn;
+  height: 7vmax;
+}
+.bottom{
+  background: #f4f4f4;
+  mix-blend-mode: darken;
+}
+
+.insidevideo{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  mix-blend-mode:overlay;
+
+}
+.playsf{
+  width: 100%;
+  display: relative;
+  background-attachment: inherit;
+
+}
+/*END OF INRO PAGE */
+
+/*placement experiences css code*/
+
+.para{
+	margin-bottom: 10px;
+	font-size: 120%;
+	text-align: justify;
+  margin-top: 10px;
+}
+.contain, .book-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contain{
+  position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #2d6f75;
+}
+.book-content{
+  position: absolute;
+	width: 65%;
+	min-width: 300px;
+	max-width: 600px;
+	height: 500px;
+	position: relative;
+	perspective: 1000px;
+	transition: 1s;
+  max-height: 500px;
+  height: 100vh;
+}
+.book{
+	position: absolute;
+	width: 65%;
+	height: 100%;
+	transition: 1s;
+	transform-style: preserve-3d;
+	transform-origin: left;
+}
+.face-front, .face-back{
+	width: 100%;
+	height: 100%;
+	background: white;
+	padding: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.face-front{
+	box-shadow: inset 3px 0px 20px -7px black;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.face-back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateZ(-1px) rotateY(180deg);
+	box-shadow: inset -3px 1px 20px -7px black;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+#portada{
+	background: url('images.jpg');
+}
+#portada-back{
+	background: url('endcover.png');
+}
+#portada, #portada-back{
+	background-size: 100% 100%;
+}
+
+/* Clases que se agregaran con Javascript */
+
+.trnsf{
+	transform: translateX(80px);
+}
+.trnsf-reset{
+	transform: translateX(0px);
+}
+
+/* @media para hacer el texto responsivo */
+
+@media screen and (max-width: 800px){
+	p{
+		font-size: 12px;
+	}
+}
+.pic{
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  margin:0 auto 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.name{
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:3vmin;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin: 5px auto 30px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* end of placement experience */
+
+/* COVID19 CSS CODE BEGININIG */
+ .covid{
+  padding-top: 80px;
+  height:600px;
+	background: #383838;
+
+ }
+
+  .card{
+  	position: relative;
+  	background: #fff;
+  	width:400px;
+  	height: 500px;
+  	margin: 0 auto;
+
+  }
+  .card .content{
+  	widows: : 400px;
+  	padding: 30px;
+  	box-sizing: border-box;
+
+  }
+  .card .content a{
+  	display: inline-block;
+  	margin: 10px 0 0;
+  	padding: 10px 20px;
+  	text-decoration: none;
+  	border: 2px solid #000;
+  	color: #262626;
+  	font-weight: 600
+  }
+  .card .sliderText{
+  	position: relative;
+  	width: 100%;
+  	height: 200px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	background: #000;
+
+  }
+  .card .sliderText h3{
+  	color: #fff;
+  	font-size: 3rem;
+  }
+  .swiper-slide{
+  	width:400px;
+  }
+  .swiper-slide:nth-child(1) .sliderText{
+  	background: #2196f3;
+  }
+  .swiper-slide:nth-child(2) .sliderText{
+  	background: #e91e63;
+  }
+  .swiper-slide:nth-child(3) .sliderText{
+  	background: #c3d41a;
+  }
+  .swiper-slide:nth-child(4) .sliderText{
+  	background: #ff9800;
+  }
+
+  /* COVID19 CSS CODE ENDING*/
+
+  /* MY INTRODUTION CSS CODE BEGININIG*/
+  .intro{
+    	margin:0;
+    	padding: 0;
+    	background: #000;
+    	margin: 0;
+    	padding: 0;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;;
+    	height: 100vh;
+
+    }
+    section{
+    	position: relative;
+    	height: 100vh;
+    	width: 100%;
+    	background: #000;
+    	display: flex;
+    	justify-content: center;
+    	align-itmes: center;
+    	overflow: hidden;
+    }
+    section:before{
+    	content: '';
+    	position: absolute;
+    	top:0;
+    	left: 0;
+    	width:100%;
+    	height: 100%;
+    	background: #00adff;
+    	z-index: 1;
+    	mix-blend-mode: color;
+    	animation: animate 10s linear infinite;
+    }
+    @keyframes animate {
+    	0%{
+    		filter: hue-rotate(0deg);
+    	}
+    	100%{
+    		filter: hue-rotate(360deg);
+    	}
+    }
+
+    .headings{
+    	position: absolute;
+      top: 320px;
+    	margin: 0;
+    	padding:0;
+    	width: 100%;
+    	text-align: center;
+    	color:#fff;
+    	text-transform: uppercase;
+    	font-size: 5vmax;
+    	filter: blur(1px);
+    	font-weight: 100;
+    	text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+    							 0 0 20px rgba(255, 255, 255, 1),
+    							 0 0 40px rgba(255, 255, 255, 1),
+    							 0 0 80px rgba(255, 255, 255, 1),
+    							 0 0 160px rgba(255, 255, 255, 1);
+    	font-family: 'Poppins', sans-serif;
+    }
+
+    .greeting{
+    	position: absolute;
+      top: 450px;
+    	font-family: sans-serif;
+    	text-transform: uppercase;
+    	font-size: 2vmax;
+    	letter-spacing: 4px;
+    	overflow: hidden;
+    	background: linear-gradient(90deg, #000, #fff, #000);
+    	background-repeat: no-repeat;
+    	background-size: 80%;
+    	animation: animateq 3s linear infinite;
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: rgba(255,255,255,0);
+    }
+    @keyframes animateq {
+    	0%{
+    		background-position: -500%;
+    	}
+    	100%{
+    		background-position: 500%;
+    	}
+    }
+    .readmore{
+      position: absolute;
+      top: 500px;
+    	animation: type 3s infinite;
+    	overflow: hidden;
+    	white-space: nowrap;
+    	font-family: consolas;
+    	color: white;
+    	font-size: 2rem;
+
+    }
+    @keyframes type {
+    	0%{
+    		width:0ch;
+    	}
+    	100%{
+    		width:22ch;
+    	}
+
+    }
+    .visj {
+        position: absolute;
+        top:620px;
+        left:50%;
+
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        background: linear-gradient(90deg,#03a9f4,#441a5, #feb3b, #03a9f4);
+        background-size: 400%;
+        border-radius: 30px;
+        z-index: 1;
+        border: 2px solid gray;
+
+    }
+
+    .visj:hover {
+        animation: animte 8s linear infinite;
+    }
+
+    @keyframes animte {
+        0% {
+            background-position: 0%;
+        }
+        100% {
+            background-position: 400%;
+        }
+    }
+    .visj:before{
+      content:'';
+      position: absolute;
+      top:-5px;
+      left:-5px;
+      right:-5px;
+      bottom:-5px;
+      z-index:-1;
+      background: linear-gradient(90deg,#03a9f4,#f441a5, #ffeb3b, #03a9f4);
+      background-size:400%;
+      border-radius:40px;
+      opacity:0%;
+      transition:0.5s;
+    }
+    .visj:hover:before
+    {
+      filter:blur(20px);
+      opacity:1;
+      animation: animte 8s linear infinite;
+
+    }
+  .mypic{
+      position: absolute;
+      margin-top: 20px;
+      border-radius: 50%;
+      width: 20%;
+      height: auto;
+      min-height: 250px;
+      min-width: 275px;
+
+  }
+  /* MY INTRODUTION CSS CODE ENDING*/

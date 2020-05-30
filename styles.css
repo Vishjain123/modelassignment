@@ -340,7 +340,7 @@ mix-blend-mode: darken;
     	display: flex;
     	justify-content: center;
     	align-items: center;;
-    	height: 40vmax;
+    	height: 100vh;
 
     }
     section{

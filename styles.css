@@ -163,7 +163,7 @@ mix-blend-mode: darken;
 	width: 65%;
 	min-width: 300px;
 	max-width: 600px;
-	height: 500px;
+	max-height: 500px;
 	position: relative;
 	perspective: 1000px;
 	transition: 1s;

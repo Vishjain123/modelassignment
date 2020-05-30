@@ -269,6 +269,7 @@ mix-blend-mode: darken;
 
 /* COVID19 CSS CODE BEGININIG */
  .covid{
+   position: relative;
   padding-top: 80px;
   height:600px;
 	background: #383838;

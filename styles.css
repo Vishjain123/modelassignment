@@ -53,7 +53,7 @@ mix-blend-mode: darken;
   color: #77d8d8;
   padding: 6px;
   border: none;
-  font-size: 2vmax;
+  font-size: 2.3vmax;
 }
 
 .dropdown {
@@ -88,7 +88,7 @@ mix-blend-mode: darken;
   display: inline-block;
   height: 300px;
   position: absolute;
-  top: 3%;
+  top: 2.7%;
   right: 2%;
 
 
@@ -154,8 +154,8 @@ mix-blend-mode: darken;
 }
 .contain{
   position: relative;
-
-	height: 600px;
+	width: 100%;
+	height: 100vh;
 	background: #2d6f75;
 }
 .book-content{
@@ -269,7 +269,6 @@ mix-blend-mode: darken;
 
 /* COVID19 CSS CODE BEGININIG */
  .covid{
-   position: relative;
   padding-top: 80px;
   height:600px;
 	background: #383838;
@@ -341,7 +340,7 @@ mix-blend-mode: darken;
     	display: flex;
     	justify-content: center;
     	align-items: center;;
-    	height: 600px;
+    	height: 100vh;
 
     }
     section{

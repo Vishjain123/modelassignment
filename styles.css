@@ -345,7 +345,7 @@ mix-blend-mode: darken;
     }
     section{
     	position: relative;
-    	height: 100vh;
+    	height: 600px;
     	width: 100%;
     	background: #000;
     	display: flex;

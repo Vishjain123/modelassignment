@@ -155,7 +155,7 @@ mix-blend-mode: darken;
 .contain{
   position: relative;
 	width: 100%;
-	height: 40vmax;
+	padding:15px;
 	background: #2d6f75;
 }
 .book-content{
